@@ -1,9 +1,9 @@
 body {
-    font-family: "Proxima Nova", sans-serif !important;
+    font-family: 'Proxima Nova', sans-serif !important;
     color: rgb(67, 75, 84) !important;
 }
 
 .splash-screen {
-    height: 100vh;
-    background-image: url("https://i.pinimg.com/564x/58/1c/92/581c92c532caf9406aee6941f3714ffc.jpg");
+  height: 100vh;
+  background-image: url('https://i.pinimg.com/564x/58/1c/92/581c92c532caf9406aee6941f3714ffc.jpg');
 }
