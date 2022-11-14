@@ -1,9 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap");
+
 body {
-    font-family: 'Proxima Nova', sans-serif !important;
-    color: rgb(67, 75, 84) !important;
+  font-family: "Proxima Nova", sans-serif;
+  color: #434b54;
+}
+
+.primary-color {
+  background: #3778c2;
+}
+
+.green {
+  background: #5fb523;
+}
+
+.white-text {
+  color: #f8f9fa;
 }
 
 .splash-screen {
   height: 100vh;
   background-image: url('https://i.pinimg.com/564x/58/1c/92/581c92c532caf9406aee6941f3714ffc.jpg');
 }
+
+.splash-logo {
+  font-family: "Fira Code", monospace;
+}
+
+.menu-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+.fa-house {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.category-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.category-name {
+  color: #434b54;
+  text-decoration: none;
+}
+
+.gray-text {
+  color: #434b54;
+}
+
+.btn-success {
+  background: #5fb523;
+  border-color: #5fb523;
+}
+
+.btn-primary {
+  background: #3778c2;
+  border-color: #3778c2;
+}
+
