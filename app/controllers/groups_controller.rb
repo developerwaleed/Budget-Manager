@@ -1,4 +1,5 @@
 class GroupsController < ApplicationController
+  
   def index
     return unless current_user
 
@@ -7,7 +8,7 @@ class GroupsController < ApplicationController
   end
 
   def new
-    @groups = Group.new
+    @group = Group.new
   end
 
   def show
