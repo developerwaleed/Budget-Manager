@@ -3,16 +3,16 @@
     <h1 class="navbar-brand fs-3 fw-semibold mt-4 mb-3">Budget Manager</h1>
     <ul class="navbar-nav d-flex flex-column align-items-center me-auto mb-2 mb-lg-0 w-100">
       <li class="nav-item">
-        <%= link_to "Categories",root_path ,class: "link nav-link active fs-6" %>
+        <%= link_to "Categories", root_path, class: "nav-link active fs-6" %>
       </li>
       <li class="nav-item">
-        <%= link_to "New Categories",root_path , class: "nav-link active fs-6" %>
+        <%= link_to "New Categories", new_group_path, class: "nav-link active fs-6" %>
       </li>
       <li class="nav-item">
-        <%= link_to "New Transaction",root_path , class: "nav-link active fs-6" %>
+        <%= link_to "New Transaction", new_expense_path, class: "nav-link active fs-6" %>
       </li>
-      </ul>
-      <%= link_to "Sign Out", destroy_user_session_path, 'data-turbo-method': :delete, class: "btn btn-danger my-2" %>
+    </ul>
+    <%= link_to "Sign Out", destroy_user_session_path, 'data-turbo-method': :delete, class: "btn btn-danger my-2" %>
   </div>
 </div>
 <nav class="navbar navbar-dark primary-color mb-4">
@@ -21,7 +21,8 @@
       <span><i class="fa-solid fa-bars"></i></span>
     </button>
     <h3 class="text-white mt-1">
-Home
+      <% if controller.controller_name == 'groups' && controller.action_name != 'show' %> Categories <% end %>
+      <% if (controller.controller_name == 'groups' && controller.action_name == 'show') || controller.controller_name == 'expenses' %> Transactions <% end %>
     </h3>
     <%= link_to '<i class="fa-solid fa-house"></i>'.html_safe, root_path %>
   </div>
