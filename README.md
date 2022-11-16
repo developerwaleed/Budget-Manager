@@ -4,6 +4,10 @@
 
 ## Live demo:
 [Click Here](https://budgetmanager21.herokuapp.com/).
+
+## Project Presentation
+[Click Here](https://drive.google.com/file/d/1j5E6l-1DZzTJv52Bvsx0UO9gm79CtbGG/view?usp=sharing)
+
 ## Preview
 <img src="./public/Preview.png">
 
