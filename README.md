@@ -4,6 +4,8 @@
 
 ## Live demo:
 [Click Here](https://budgetmanager21.herokuapp.com/).
+## Preview
+<img src="./public/Preview.png">
 
 ## Entity Relationship Diagram
 <img src="https://user-images.githubusercontent.com/50721479/190148367-be9ac1c0-2d96-4049-aea3-8e5d75c1f5fa.png" width="600">
