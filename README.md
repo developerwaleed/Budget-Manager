@@ -1,24 +1,71 @@
-# README
+# Budget Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Budget Manager is a mobile web application that allows you to manage your budget by creating categories and adding your transactions in a manageable way!
 
-Things you may want to cover:
+## Live demo:
+[Click Here](https://budgetmanager21.herokuapp.com/).
 
-* Ruby version
+## Entity Relationship Diagram
+<img src="https://user-images.githubusercontent.com/50721479/190148367-be9ac1c0-2d96-4049-aea3-8e5d75c1f5fa.png" width="600">
 
-* System dependencies
+## Made With
 
-* Configuration
+- Ruby on Rails
+- Devise
+- Rspec
 
-* Database creation
+## Getting Started
 
-* Database initialization
+### Setup
 
-* How to run the test suite
+To setup the project locally, clone the repository using:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ git clone https://github.com/developerwaleed/Budget-Manager.git
+```
 
-* Deployment instructions
+### Install dependencies
+run:
+```
+$ bundle install
+```
 
-* ...
+### Setup the database
+run:
+```
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
+```
+
+### Run the app
+run:
+```
+$ rails s
+```
+
+### Run the tests
+run:
+```
+$ rspec
+```
+
+## Authors
+
+| 👤 Name | Github | Twitter | LinkedIn |
+|------|--------|---------|----------|
+|Waleed Amjad|[@caasperr](https://github.com/developerwaleed)|[@developerwaleed](https://twitter.com/developerwaleed)|[@developerwaleed](https://www.linkedin.com/in/developerwaleed/)|
+
+## Acknowledgment
+- [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance.
+- Hat tip to anyone whose code was used.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
