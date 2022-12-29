@@ -35,7 +35,7 @@
 
 Looking to stay on top of your budget? **Budget Manager** is here to help. This mobile web application lets you create categories and add transactions to keep your finances in order.
 
-<div align="center"><img src='./public/mock.jpg' width="1000"></div>
+<div align="center"><img src='./public/mock.jpg' width="700"></div>
 
 
 ## 🛠 Built With <a name="built-with"></a>
